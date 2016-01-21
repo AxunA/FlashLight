@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">漫步手电筒</string>
+
+    <string name="tis">温馨提示</string>
+    <string name="open_wx_tis">二维码已保存至相册，是否打开微信扫一扫？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="about_us_tis"><b>事情是这样的</b>：前几天打算去下载一个手电筒的应用，下了几个后来全卸载了，里面各种广告，各种下载，恶心。所以自个儿开发了一款功能简洁的，希望大家喜欢，后期还会继续更新。</string>
+    <string name="pay_money_tis"><b>打赏功能</b>：长按下面二维码，保存图片至相册，打开微信扫一扫，从相册中选择该二维码，对开发者进行打赏。</string>
+
+    <string name="share">分享</string>
+    <string name="suggestion">反馈建议</string>
+    <string name="reward">打赏作者</string>
+
+    <string name="to_you">推荐给你</string>
+    <string name="share_text">这是一款简单的手电筒工具，推荐你使用！下载地址：http://www.pgyer.com/flash_light</string>
+
+</resources>
+

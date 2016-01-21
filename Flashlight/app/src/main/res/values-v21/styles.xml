@@ -1,0 +1,13 @@
+<resources>>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="common_btn_style" parent="BaseButton">
+        <item name="android:background">@drawable/btn_comm_v21_selector</item>
+    </style>
+
+</resources>

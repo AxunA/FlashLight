@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_bg_1" >
+
+    <LinearLayout
+        android:id="@+id/umeng_update_frame"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/umeng_update_dialog_bg"
+        android:paddingBottom="8dp"
+        android:orientation="vertical" >
+
+        <!-- Title -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@color/comm_btn_bg_normal">
+            <ImageView
+                android:id="@+id/umeng_update_wifi_indicator"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/UMGprsCondition" />
+
+            <TextView
+                style="@style/DialogWindowTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/UMUpdateTitle"
+                android:layout_marginLeft="8dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true" />
+            
+            <Button
+                android:id="@+id/umeng_update_id_close"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:layout_marginRight="10dp"
+				android:focusable="true"
+				android:visibility="gone"
+				android:background="@drawable/umeng_update_button_close_bg_selector"/>
+            
+        </RelativeLayout>
+
+
+        <!-- Content -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/umeng_update_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:focusable="true"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </ScrollView>
+        
+        <!-- Ignore CheckBox -->
+
+		<CheckBox
+		    android:id="@+id/umeng_update_id_check"
+	        android:layout_width="match_parent"
+	        android:layout_height="32dp"
+	        android:text="@string/UMIgnore"
+            android:visibility="gone"
+	        android:button="@drawable/umeng_update_button_check_selector"
+	        android:textColor="@android:color/black" />
+
+        <!-- OK&Cancel Button -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/umeng_update_id_ok"
+                android:text="@string/UMUpdateNow"
+                style="@style/dialog_btn_style"/>
+
+            <Button
+                android:id="@+id/umeng_update_id_cancel"
+                android:text="@string/UMNotNow"
+                style="@style/dialog_btn_style" />
+
+            <Button
+                android:id="@+id/umeng_update_id_ignore"
+                android:text="@string/UMIgnore"
+                android:visibility="gone"
+                style="@style/dialog_btn_style" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

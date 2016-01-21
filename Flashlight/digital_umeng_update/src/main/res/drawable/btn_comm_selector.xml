@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape>
+            <solid android:color="@color/comm_btn_bg_pressed"/>
+            <!-- 圆角 -->
+            <corners
+                android:topRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                />
+        </shape>
+    </item>
+
+    <item >
+        <shape>
+            <solid android:color="@color/comm_btn_bg_normal"/>
+
+            <corners
+                android:topRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                />
+
+        </shape>
+    </item>
+</selector>
