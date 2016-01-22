@@ -177,7 +177,6 @@ public class MainActivity extends BaseActivity implements CompoundButton.OnCheck
 
     @Override
     protected void onDestroy() {
-
         flightThread.interrupt();//关闭线程
         super.onDestroy();
     }
