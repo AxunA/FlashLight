@@ -26,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.SuggestActivity"/>
         <activity android:name=".ui.activity.RewardActivity"/>
 
         <!--友盟更新  start  -->
