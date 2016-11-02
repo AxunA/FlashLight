@@ -6,7 +6,7 @@
 
 以下是截图：
 
-![Mou icon](https://github.com/AxunA/FlashLight/blob/master/Flashlight/screenshots/screenshots.jpg?raw=true)
+![Mou icon](https://github.com/AxunA/FlashLight/blob/master/screenshots/screenshots.png?raw=true)
 
 
 
